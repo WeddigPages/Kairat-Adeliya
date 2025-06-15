@@ -59,7 +59,7 @@ body, html {
 .names {
   margin-top: 8vh;
   font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   text-align: center;
   animation: fadeUp 2s ease-out forwards;
@@ -196,6 +196,11 @@ body, html {
   justify-content: center;
   height: 100%;
   overflow: hidden;
+}
+.registry-office-content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .registry-office-overlay {
